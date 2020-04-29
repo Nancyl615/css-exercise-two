@@ -1,7 +1,14 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #C4C4C4;
+  color: #333333;
+  font-size: ; /*this allows  you to quickly edit all fonts from one location*/
+  line-height: 1.5em; /*this allows text to be more readable*/
 }
+
+a:link { color:#000000; text-decoration: none;} /* unvisited */
+a:visited { color:#333333; } /* visited */
+a:hover { color:#FFFFFF; } /* mouse over */
+a:active { color:#0070BD; } /* selected */
 
 nav {
   background-color: rgba(0,0,0,.5);
