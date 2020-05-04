@@ -1,8 +1,37 @@
 body {
   background-color: #C4C4C4;
   color: #333333;
-  font-size: ; /*this allows  you to quickly edit all fonts from one location*/
-  line-height: 1.5em; /*this allows text to be more readable*/
+  font-size: 1.2em; /*this allows  you to quickly edit all fonts from one location*/
+  line-height: 1.3em; /*this allows text to be more readable*/
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+
+.author {
+  padding-bottom: 1em;
+}
+
+figcaption {
+font-size: 0.85em;
+font-style: italic;
+text-align: left;
+line-height: 0.5em;
+padding-bottom: 2em;
+}
+
+p + p {
+  margin-top: 12px;
 }
 
 a:link { color:#000000; text-decoration: none;} /* unvisited */
